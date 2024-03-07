@@ -101,7 +101,7 @@ def new_calibration(u, ud, K_left, K_right, t_norm):
 
 if __name__ == "__main__":
     folder_left = "/home/zhao/rectification/kitti/left/"
-    folder_right = "/home/zhao/rectification/kitti/right_1/"
+    folder_right = "/home/zhao/rectification/kitti/right/"
     K_left = np.array([[7.215377e+02,0,6.095593e+02],[0,7.215377e+02,1.728540e+02],[0,0,1]])
     K_right = np.array([[7.215377e+02,0,6.095593e+02],[0,7.215377e+02,1.728540e+02],[0,0,1]])
     t_norm = 0.532754708932503
